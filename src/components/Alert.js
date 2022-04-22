@@ -1,6 +1,6 @@
 import style from "./style.module.css";
 import css from "classnames";
-import React, {useState} from "react";
+import React, { useState } from "react";
 
 export default function Alert({ children, type, message }) {
   const [isShow, setIsShow] = useState(true);
